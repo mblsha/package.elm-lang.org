@@ -21,7 +21,7 @@ view versionChan innerWidth user package version versions maybeModule =
         Nothing -> Text.fromString package
         Just _ ->
           Text.link
-            ("/packages/" ++ user ++ "/" ++ package ++ "/" ++ version)
+            ("../index.html")
             (Text.fromString package)
 
     userPackageText =
