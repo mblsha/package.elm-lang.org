@@ -33,7 +33,7 @@ packageUrl version =
 
 documentationUrl : String
 documentationUrl =
-  packageUrl context.version ++ "/documentation.json"
+  "documentation.json"
 
 
 moduleList : Signal ModuleList.Model
@@ -61,7 +61,7 @@ handleResult response =
 
 readmeUrl : String
 readmeUrl =
-  packageUrl context.version ++ "/README.md"
+  "README.md"
 
 
 readme : Signal (Maybe String)

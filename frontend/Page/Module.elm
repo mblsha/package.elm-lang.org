@@ -38,7 +38,7 @@ documentationUrl : String
 documentationUrl =
   let name = moduleNameToUrl context.moduleName
   in
-      packageUrl context.version ++ "/docs/" ++ name ++ ".json"
+      name ++ ".json"
 
 
 documentation : Signal D.Documentation
